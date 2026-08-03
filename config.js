@@ -4,6 +4,6 @@
   WhatsApp: apenas números, com 55 + DDD + número.
 */
 window.ENTRELACOS_CONFIG = {
-  whatsapp: "",
+  whatsapp: "5519996605520",
   instagram: "",
 };
