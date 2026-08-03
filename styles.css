@@ -145,12 +145,14 @@ textarea {
 }
 
 .brand {
-  width: 220px;
+  width: 250px;
   flex: 0 0 auto;
 }
 
 .brand img {
   width: 100%;
+  height: auto;
+  object-fit: contain;
 }
 
 .main-nav {
@@ -1333,9 +1335,10 @@ footer {
 }
 
 .footer-brand img {
-  width: 220px;
+  width: 240px;
+  height: auto;
   margin-bottom: 16px;
-  filter: brightness(0) invert(1) sepia(.2);
+  border-radius: 10px;
 }
 
 .footer-brand p {
@@ -1522,7 +1525,7 @@ footer {
   }
 
   .brand {
-    width: 185px;
+    width: 205px;
   }
 
   .menu-button {
