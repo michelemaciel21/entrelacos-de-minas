@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Conheça os doces mineiros disponíveis na Entrelaços de Minas: doce de leite pastoso e doces em pedaços, escolhidos pela Mi e vendidos sob encomenda."
+    />
+    <meta name="theme-color" content="#a64b3c" />
+    <meta property="og:title" content="Sabores disponíveis | Entrelaços de Minas" />
+    <meta property="og:description" content="Doces mineiros escolhidos com carinho. Consulte a remessa e encomende diretamente com a Mi." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/doce-leite-pastoso.png" />
+    <title>Sabores disponíveis | Entrelaços de Minas</title>
+    <link rel="icon" type="image/png" href="assets/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="catalog-page">
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+    <div class="announcement">
+      <div class="marquee" aria-label="Produtos mineiros sob encomenda">
+        <div class="marquee__track">
+          <span>Sabores escolhidos em Minas</span><i>✦</i>
+          <span>Pedidos sob encomenda</span><i>✦</i>
+          <span>Curadoria feita pela Mi</span><i>✦</i>
+          <span>Afeto em cada detalhe</span><i>✦</i>
+          <span aria-hidden="true">Sabores escolhidos em Minas</span><i aria-hidden="true">✦</i>
+          <span aria-hidden="true">Pedidos sob encomenda</span><i aria-hidden="true">✦</i>
+          <span aria-hidden="true">Curadoria feita pela Mi</span><i aria-hidden="true">✦</i>
+          <span aria-hidden="true">Afeto em cada detalhe</span><i aria-hidden="true">✦</i>
+        </div>
+      </div>
+    </div>
+
+    <header class="site-header" id="inicio">
+      <div class="shell header-inner">
+        <a class="brand" href="index.html" aria-label="Entrelaços de Minas — início">
+          <img src="assets/logo-entrelacos.png?v=20260803-1" width="1100" height="397" alt="Entrelaços de Minas, curadoria da Mi" />
+        </a>
+
+        <button class="menu-button" type="button" aria-expanded="false" aria-controls="menu-principal">
+          <span></span><span></span><span></span>
+          <span class="sr-only">Abrir menu</span>
+        </button>
+
+        <nav class="main-nav" id="menu-principal" aria-label="Menu principal">
+          <a href="index.html">Início</a>
+          <a class="is-active" href="sabores.html" aria-current="page">Sabores</a>
+          <a href="index.html#historia">Nossa história</a>
+          <a href="index.html#como-funciona">Como pedir</a>
+          <a class="nav-cta" href="index.html#encomenda">Quero encomendar <span>↗</span></a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="conteudo">
+      <section class="catalog-hero">
+        <div class="catalog-orbit catalog-orbit-one" aria-hidden="true"></div>
+        <div class="catalog-orbit catalog-orbit-two" aria-hidden="true"></div>
+        <div class="shell catalog-hero-inner">
+          <p class="eyebrow reveal">Cardápio da remessa</p>
+          <h1 class="reveal reveal-delay-1">Sabores disponíveis <em>agora.</em></h1>
+          <p class="catalog-intro reveal reveal-delay-2">
+            Uma seleção pequena, feita de propósito. Escolha seu favorito e fale com a Mi para confirmar peso, valor e entrega.
+          </p>
+          <div class="catalog-status reveal reveal-delay-3"><span>✦</span> Disponível sob encomenda</div>
+        </div>
+      </section>
+
+      <section class="product-section section" aria-labelledby="titulo-doces">
+        <div class="shell">
+          <div class="catalog-heading reveal">
+            <div>
+              <p class="eyebrow">Doces mineiros</p>
+              <h2 id="titulo-doces">Um carinho em<br /><em>cada pedacinho.</em></h2>
+            </div>
+            <p>Receitas com jeitinho de fazenda, escolhidas em Minas e trazidas para mais perto de você.</p>
+          </div>
+
+          <div class="product-grid">
+            <article class="product-card reveal">
+              <div class="product-photo">
+                <img src="assets/doce-leite-pastoso.png" alt="Pote de doce de leite pastoso cremoso com colher de madeira" width="1536" height="1536" />
+                <span class="photo-badge">Cremoso</span>
+              </div>
+              <div class="product-body">
+                <p class="product-status"><span></span> Disponível nesta remessa</p>
+                <h3>Doce de leite pastoso</h3>
+                <p>Cremoso, encorpado e com sabor de fazenda. Perfeito para comer de colher, acompanhar queijo ou adoçar o café.</p>
+                <div class="product-meta"><span>Em pote</span><i>•</i><span>Consulte peso e valor</span></div>
+                <a
+                  class="button product-order whatsapp-link"
+                  href="#"
+                  data-message="Oi, Mi! Vim pelo cardápio da Entrelaços de Minas e quero encomendar o doce de leite pastoso 💛 Pode me passar o peso, o valor e as opções de entrega?"
+                >Quero encomendar <span>→</span></a>
+              </div>
+            </article>
+
+            <article class="product-card reveal reveal-delay-1">
+              <div class="product-photo">
+                <img src="assets/doce-leite-pedacos.png" alt="Pedaços de doce de leite artesanal em bandeja de isopor" width="1536" height="1536" />
+                <span class="photo-badge">Clássico</span>
+              </div>
+              <div class="product-body">
+                <p class="product-status"><span></span> Disponível nesta remessa</p>
+                <h3>Doce de leite em pedaços</h3>
+                <p>Macio por dentro, levemente açucarado por fora e com aquele gostinho de receita feita no tacho.</p>
+                <div class="product-meta"><span>Em bandeja de isopor</span><i>•</i><span>Consulte peso e valor</span></div>
+                <a
+                  class="button product-order whatsapp-link"
+                  href="#"
+                  data-message="Oi, Mi! Vim pelo cardápio da Entrelaços de Minas e quero encomendar o doce de leite em pedaços 💛 Pode me passar o peso, o valor e as opções de entrega?"
+                >Quero encomendar <span>→</span></a>
+              </div>
+            </article>
+
+            <article class="product-card reveal">
+              <div class="product-photo">
+                <img src="assets/doce-abobora.png" alt="Pedaços de doce de abóbora artesanal em bandeja de isopor" width="1536" height="1536" />
+                <span class="photo-badge">Caseiro</span>
+              </div>
+              <div class="product-body">
+                <p class="product-status"><span></span> Disponível nesta remessa</p>
+                <h3>Doce de abóbora em pedaços</h3>
+                <p>Alaranjado, úmido e artesanal, com textura delicada e sabor que lembra cozinha de vó.</p>
+                <div class="product-meta"><span>Em bandeja de isopor</span><i>•</i><span>Consulte peso e valor</span></div>
+                <a
+                  class="button product-order whatsapp-link"
+                  href="#"
+                  data-message="Oi, Mi! Vim pelo cardápio da Entrelaços de Minas e quero encomendar o doce de abóbora em pedaços 💛 Pode me passar o peso, o valor e as opções de entrega?"
+                >Quero encomendar <span>→</span></a>
+              </div>
+            </article>
+
+            <article class="product-card reveal reveal-delay-1">
+              <div class="product-photo">
+                <img src="assets/doce-coco.png" alt="Pedaços de doce de coco artesanal em bandeja de isopor" width="1536" height="1536" />
+                <span class="photo-badge">Artesanal</span>
+              </div>
+              <div class="product-body">
+                <p class="product-status"><span></span> Disponível nesta remessa</p>
+                <h3>Doce de coco em pedaços</h3>
+                <p>Fibras de coco bem presentes, textura macia e sabor caseiro na medida certa.</p>
+                <div class="product-meta"><span>Em bandeja de isopor</span><i>•</i><span>Consulte peso e valor</span></div>
+                <a
+                  class="button product-order whatsapp-link"
+                  href="#"
+                  data-message="Oi, Mi! Vim pelo cardápio da Entrelaços de Minas e quero encomendar o doce de coco em pedaços 💛 Pode me passar o peso, o valor e as opções de entrega?"
+                >Quero encomendar <span>→</span></a>
+              </div>
+            </article>
+          </div>
+
+          <div class="catalog-note reveal">
+            <span aria-hidden="true">✦</span>
+            <p><strong>Cada remessa é especial.</strong> A disponibilidade pode mudar. A Mi confirma com você o peso, o valor e o frete antes de fechar o pedido.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="final-cta catalog-cta">
+        <div class="final-cta-pattern" aria-hidden="true"></div>
+        <div class="shell final-cta-inner reveal">
+          <span class="final-mini">Entrelaços de Minas</span>
+          <h2>Qual sabor criou<br />laço com você?</h2>
+          <p>Chame a Mi, escolha seus doces e reserve um pedacinho de Minas.</p>
+          <a
+            class="button button-cream whatsapp-link"
+            href="#"
+            data-message="Oi, Mi! Vi os doces disponíveis no site da Entrelaços de Minas e quero montar minha encomenda 💛"
+          >Falar com a Mi no WhatsApp <span>→</span></a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="shell footer-grid">
+        <div class="footer-brand">
+          <img src="assets/logo-entrelacos.png?v=20260803-1" width="1100" height="397" alt="Entrelaços de Minas" />
+          <p>Sabores que criam laços.<br />Curadoria da Mi.</p>
+        </div>
+        <div class="footer-links">
+          <p>Explore</p>
+          <a href="sabores.html">Sabores</a>
+          <a href="index.html#historia">Nossa história</a>
+          <a href="index.html#como-funciona">Como pedir</a>
+        </div>
+        <div class="footer-links">
+          <p>Fale com a Mi</p>
+          <a href="index.html#encomenda">Lista de encomendas</a>
+          <a class="instagram-link" href="#" rel="noopener">Instagram <span>↗</span></a>
+          <a class="whatsapp-link" href="#">WhatsApp <span>↗</span></a>
+        </div>
+        <div class="footer-origin">
+          <span>De</span>
+          <strong>Santa Luzia, MG</strong>
+          <i>↓</i>
+          <span>Para</span>
+          <strong>Perto de você</strong>
+        </div>
+      </div>
+      <div class="shell footer-bottom">
+        <p>© <span id="year"></span> Entrelaços de Minas</p>
+        <p>Feito com afeto, prosa e um cafezinho.</p>
+      </div>
+    </footer>
+
+    <a class="floating-whatsapp whatsapp-link" href="#" aria-label="Chamar no WhatsApp">
+      <span aria-hidden="true">✆</span><b>Chamar no WhatsApp</b>
+    </a>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+    <script src="config.js?v=20260803-1"></script>
+    <script src="script.js?v=20260806-1"></script>
+  </body>
+</html>

@@ -13,7 +13,8 @@
     toastTimer = window.setTimeout(() => toast.classList.remove("visible"), 4200);
   };
 
-  document.querySelector("#year").textContent = new Date().getFullYear();
+  const year = document.querySelector("#year");
+  if (year) year.textContent = new Date().getFullYear();
 
   const menuButton = document.querySelector(".menu-button");
   const menu = document.querySelector(".main-nav");
@@ -76,7 +77,8 @@
 
   document.querySelectorAll(".whatsapp-link").forEach((link) => {
     if (whatsapp.length >= 12) {
-      link.href = `https://wa.me/${whatsapp}?text=${encodeURIComponent(defaultMessage)}`;
+      const message = link.dataset.message || defaultMessage;
+      link.href = `https://wa.me/${whatsapp}?text=${encodeURIComponent(message)}`;
       link.target = "_blank";
       link.rel = "noopener";
       return;
